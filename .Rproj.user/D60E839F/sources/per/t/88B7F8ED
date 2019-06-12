@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1558863155819.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2649222086",
+    "id" : "88B7F8ED",
+    "lastKnownWriteTime" : 1560277372,
+    "last_content_update" : 1560277372446,
+    "path" : "~/Documents/GitHub/dataEx_Shiny/dataEx_app_split/server.R",
+    "project_path" : "dataEx_app_split/server.R",
+    "properties" : {
+        "cursorPosition" : "187,17",
+        "scrollLine" : "171",
+        "source_window_id" : ""
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

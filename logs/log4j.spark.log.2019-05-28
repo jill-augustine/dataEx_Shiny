@@ -1,0 +1,1435 @@
+19/05/28 06:30:08 INFO Executor: Told to re-register on heartbeat
+19/05/28 06:30:08 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 06:30:08 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 06:30:08 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 06:30:08 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 06:30:08 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 06:30:08 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 06:30:18 INFO Executor: Told to re-register on heartbeat
+19/05/28 06:30:18 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 06:30:18 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 06:30:18 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 06:30:18 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 06:30:18 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 06:30:18 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 06:30:28 INFO Executor: Told to re-register on heartbeat
+19/05/28 06:30:28 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 06:30:28 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 06:30:28 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 06:30:28 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 06:30:28 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 06:30:28 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 18:45:05 INFO Executor: Told to re-register on heartbeat
+19/05/28 18:45:05 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 18:45:05 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 18:45:05 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 18:45:05 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 18:45:05 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 18:45:05 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 18:45:11 INFO Executor: Told to re-register on heartbeat
+19/05/28 18:45:11 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 18:45:11 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 18:45:11 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 18:45:11 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 18:45:11 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 18:45:11 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:26:19 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:26:19 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:26:19 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:26:19 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:26:19 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:26:19 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:26:19 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:26:29 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:26:29 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:26:29 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:26:29 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:26:29 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:26:29 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:26:29 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:26:39 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:26:39 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:26:39 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:26:39 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:26:39 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:26:39 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:26:39 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:26:49 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:26:49 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:26:49 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:26:49 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:26:49 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:26:49 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:26:49 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:26:59 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:26:59 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:26:59 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:26:59 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:26:59 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:26:59 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:26:59 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:27:09 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:27:09 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:27:09 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:27:09 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:27:09 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:27:09 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:27:09 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:27:19 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:27:19 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:27:19 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:27:19 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:27:19 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:27:19 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:27:19 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:27:29 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:27:29 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:27:29 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:27:29 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:27:29 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:27:29 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:27:29 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:27:39 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:27:39 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:27:39 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:27:39 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:27:39 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:27:39 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:27:39 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:27:50 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:27:50 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:27:50 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:27:50 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:27:50 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:27:50 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:27:50 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:28:00 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:28:00 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:28:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:28:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:28:00 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:28:00 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:28:00 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:28:10 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:28:10 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:28:10 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:28:10 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:28:10 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:28:10 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:28:10 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:28:20 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:28:20 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:28:20 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:28:20 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:28:20 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:28:20 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:28:20 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:28:30 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:28:30 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:28:30 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:28:30 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:28:30 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:28:30 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:28:30 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:28:40 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:28:40 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:28:40 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:28:40 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:28:40 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:28:40 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:28:40 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:28:50 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:28:50 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:28:50 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:28:50 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:28:50 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:28:50 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:28:50 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:29:00 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:29:00 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:29:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:29:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:29:00 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:29:00 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:29:00 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:29:10 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:29:10 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:29:10 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:29:10 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:29:10 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:29:10 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:29:10 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:29:20 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:29:20 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:29:20 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:29:20 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:29:20 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:29:20 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:29:20 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:29:30 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:29:30 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:29:30 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:29:30 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:29:30 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:29:30 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:29:30 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:29:40 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:29:40 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:29:40 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:29:40 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:29:40 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:29:40 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:29:40 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:29:50 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:29:50 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:29:50 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:29:50 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:29:50 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:29:50 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:29:50 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:30:00 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:30:00 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:30:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:30:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:30:00 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:30:00 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:30:00 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:30:10 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:30:10 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:30:10 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:30:10 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:30:10 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:30:10 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:30:10 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:30:20 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:30:20 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:30:20 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:30:20 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:30:20 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:30:20 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:30:20 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:30:30 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:30:30 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:30:30 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:30:30 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:30:30 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:30:30 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:30:30 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:30:40 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:30:40 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:30:40 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:30:40 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:30:40 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:30:40 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:30:40 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:30:50 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:30:50 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:30:50 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:30:50 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:30:50 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:30:50 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:30:50 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:31:00 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:31:00 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:31:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:31:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:31:00 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:31:00 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:31:00 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:31:10 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:31:10 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:31:10 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:31:10 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:31:10 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:31:10 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:31:10 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:31:20 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:31:20 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:31:20 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:31:20 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:31:20 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:31:20 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:31:20 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:31:30 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:31:30 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:31:30 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:31:30 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:31:30 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:31:30 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:31:30 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:31:40 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:31:40 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:31:40 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:31:40 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:31:40 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:31:40 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:31:40 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:31:50 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:31:50 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:31:50 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:31:50 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:31:50 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:31:50 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:31:50 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:32:00 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:32:00 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:32:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:32:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:32:00 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:32:00 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:32:00 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:32:10 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:32:10 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:32:10 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:32:10 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:32:10 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:32:10 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:32:10 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:32:20 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:32:20 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:32:20 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:32:20 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:32:20 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:32:20 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:32:20 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:32:30 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:32:30 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:32:30 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:32:30 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:32:30 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:32:30 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:32:30 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:32:40 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:32:40 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:32:40 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:32:40 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:32:40 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:32:40 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:32:40 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:32:50 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:32:50 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:32:50 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:32:50 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:32:50 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:32:50 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:32:50 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:33:00 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:33:00 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:33:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:33:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:33:00 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:33:00 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:33:00 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:33:10 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:33:10 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:33:10 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:33:10 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:33:10 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:33:10 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:33:10 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:33:20 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:33:20 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:33:20 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:33:20 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:33:20 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:33:20 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:33:20 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:33:30 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:33:30 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:33:30 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:33:30 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:33:30 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:33:30 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:33:30 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:33:40 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:33:40 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:33:40 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:33:40 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:33:40 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:33:40 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:33:40 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:33:50 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:33:50 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:33:50 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:33:50 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:33:50 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:33:50 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:33:50 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:34:00 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:34:00 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:34:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:34:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:34:00 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:34:00 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:34:00 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:34:10 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:34:10 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:34:10 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:34:10 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:34:10 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:34:10 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:34:10 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:34:20 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:34:20 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:34:20 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:34:20 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:34:20 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:34:20 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:34:20 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:34:30 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:34:30 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:34:30 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:34:30 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:34:30 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:34:30 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:34:30 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:34:40 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:34:40 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:34:40 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:34:40 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:34:40 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:34:40 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:34:40 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:34:50 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:34:50 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:34:50 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:34:50 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:34:50 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:34:50 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:34:50 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:35:00 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:35:00 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:35:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:35:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:35:00 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:35:00 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:35:00 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:35:10 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:35:10 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:35:10 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:35:10 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:35:10 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:35:10 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:35:10 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:35:20 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:35:20 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:35:20 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:35:20 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:35:20 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:35:20 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:35:20 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:35:30 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:35:30 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:35:30 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:35:30 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:35:30 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:35:30 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:35:30 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:35:40 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:35:40 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:35:40 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:35:40 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:35:40 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:35:40 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:35:40 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:35:50 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:35:50 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:35:50 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:35:50 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:35:50 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:35:50 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:35:50 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:36:00 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:36:00 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:36:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:36:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:36:00 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:36:00 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:36:00 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:36:10 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:36:10 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:36:10 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:36:10 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:36:10 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:36:10 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:36:10 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:36:20 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:36:20 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:36:20 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:36:20 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:36:20 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:36:20 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:36:20 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:36:30 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:36:30 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:36:30 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:36:30 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:36:30 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:36:30 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:36:30 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:36:40 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:36:40 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:36:40 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:36:40 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:36:40 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:36:40 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:36:40 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:36:50 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:36:50 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:36:50 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:36:50 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:36:50 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:36:50 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:36:50 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:37:00 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:37:00 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:37:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:37:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:37:00 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:37:00 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:37:00 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:37:10 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:37:10 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:37:10 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:37:10 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:37:10 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:37:10 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:37:10 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:37:20 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:37:20 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:37:20 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:37:20 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:37:20 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:37:20 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:37:20 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:37:30 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:37:30 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:37:30 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:37:30 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:37:30 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:37:30 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:37:30 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:37:40 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:37:40 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:37:40 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:37:40 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:37:40 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:37:40 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:37:40 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:37:50 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:37:50 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:37:50 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:37:50 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:37:50 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:37:50 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:37:50 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:38:00 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:38:00 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:38:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:38:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:38:00 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:38:00 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:38:00 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:38:10 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:38:10 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:38:10 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:38:10 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:38:10 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:38:10 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:38:10 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:38:20 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:38:20 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:38:20 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:38:20 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:38:20 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:38:20 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:38:20 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:38:30 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:38:30 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:38:30 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:38:30 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:38:30 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:38:30 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:38:30 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:38:40 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:38:40 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:38:40 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:38:40 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:38:40 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:38:40 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:38:40 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:38:50 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:38:50 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:38:50 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:38:50 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:38:50 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:38:50 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:38:50 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:39:00 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:39:00 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:39:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:39:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:39:00 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:39:00 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:39:00 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:39:10 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:39:10 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:39:10 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:39:10 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:39:10 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:39:10 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:39:10 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:39:20 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:39:20 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:39:20 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:39:20 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:39:20 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:39:20 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:39:20 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:39:30 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:39:30 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:39:30 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:39:30 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:39:30 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:39:30 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:39:30 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:39:40 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:39:40 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:39:40 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:39:40 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:39:40 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:39:40 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:39:40 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:39:50 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:39:50 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:39:50 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:39:50 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:39:50 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:39:50 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:39:50 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:40:00 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:40:00 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:40:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:40:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:40:00 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:40:00 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:40:00 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:40:10 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:40:10 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:40:10 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:40:10 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:40:10 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:40:10 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:40:10 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:40:20 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:40:20 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:40:20 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:40:20 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:40:20 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:40:20 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:40:20 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:40:30 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:40:30 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:40:30 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:40:30 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:40:30 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:40:30 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:40:30 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:40:40 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:40:40 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:40:40 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:40:40 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:40:40 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:40:40 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:40:40 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:40:50 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:40:50 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:40:50 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:40:50 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:40:50 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:40:50 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:40:50 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:41:00 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:41:00 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:41:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:41:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:41:00 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:41:00 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:41:00 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:41:10 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:41:10 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:41:10 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:41:10 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:41:10 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:41:10 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:41:10 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:41:20 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:41:20 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:41:20 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:41:20 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:41:20 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:41:20 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:41:20 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:41:30 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:41:30 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:41:30 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:41:30 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:41:30 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:41:30 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:41:30 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:41:40 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:41:40 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:41:40 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:41:40 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:41:40 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:41:40 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:41:40 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:41:50 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:41:50 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:41:50 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:41:50 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:41:50 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:41:50 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:41:50 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:42:00 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:42:00 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:42:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:42:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:42:00 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:42:00 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:42:00 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:42:10 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:42:10 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:42:10 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:42:10 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:42:10 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:42:10 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:42:10 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:42:20 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:42:20 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:42:20 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:42:20 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:42:20 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:42:20 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:42:20 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:42:30 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:42:30 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:42:30 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:42:30 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:42:30 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:42:30 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:42:30 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:42:41 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:42:41 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:42:41 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:42:41 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:42:41 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:42:41 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:42:41 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:42:51 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:42:51 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:42:51 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:42:51 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:42:51 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:42:51 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:42:51 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:43:01 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:43:01 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:43:01 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:43:01 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:43:01 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:43:01 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:43:01 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:43:11 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:43:11 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:43:11 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:43:11 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:43:11 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:43:11 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:43:11 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:43:21 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:43:21 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:43:21 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:43:21 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:43:21 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:43:21 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:43:21 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:43:31 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:43:31 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:43:31 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:43:31 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:43:31 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:43:31 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:43:31 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:43:41 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:43:41 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:43:41 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:43:41 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:43:41 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:43:41 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:43:41 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:43:51 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:43:51 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:43:51 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:43:51 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:43:51 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:43:51 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:43:51 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:44:01 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:44:01 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:44:01 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:44:01 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:44:01 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:44:01 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:44:01 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:44:11 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:44:11 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:44:11 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:44:11 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:44:11 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:44:11 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:44:11 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:44:21 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:44:21 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:44:21 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:44:21 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:44:21 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:44:21 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:44:21 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:44:31 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:44:31 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:44:31 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:44:31 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:44:31 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:44:31 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:44:31 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:44:41 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:44:41 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:44:41 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:44:41 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:44:41 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:44:41 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:44:41 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:44:51 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:44:51 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:44:51 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:44:51 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:44:51 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:44:51 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:44:51 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:45:01 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:45:01 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:45:01 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:45:01 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:45:01 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:45:01 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:45:01 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:45:11 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:45:11 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:45:11 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:45:11 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:45:11 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:45:11 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:45:11 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:45:21 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:45:21 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:45:21 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:45:21 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:45:21 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:45:21 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:45:21 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:45:31 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:45:31 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:45:31 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:45:31 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:45:31 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:45:31 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:45:31 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:45:41 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:45:41 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:45:41 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:45:41 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:45:41 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:45:41 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:45:41 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:45:51 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:45:51 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:45:51 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:45:51 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:45:51 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:45:51 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:45:51 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:46:01 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:46:01 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:46:01 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:46:01 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:46:01 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:46:01 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:46:01 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:46:11 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:46:11 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:46:11 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:46:11 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:46:11 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:46:11 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:46:11 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:46:21 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:46:21 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:46:21 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:46:21 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:46:21 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:46:21 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:46:21 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:46:31 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:46:31 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:46:31 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:46:31 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:46:31 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:46:31 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:46:31 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:46:41 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:46:41 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:46:41 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:46:41 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:46:41 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:46:41 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:46:41 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:46:51 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:46:51 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:46:51 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:46:51 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:46:51 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:46:51 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:46:51 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:47:01 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:47:01 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:47:01 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:47:01 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:47:01 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:47:01 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:47:01 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:47:11 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:47:11 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:47:11 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:47:11 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:47:11 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:47:11 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:47:11 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:47:21 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:47:21 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:47:21 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:47:21 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:47:21 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:47:21 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:47:21 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:47:31 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:47:31 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:47:31 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:47:31 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:47:31 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:47:31 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:47:31 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:47:41 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:47:41 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:47:41 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:47:41 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:47:41 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:47:41 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:47:41 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:47:51 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:47:51 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:47:51 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:47:51 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:47:51 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:47:51 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:47:51 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:48:01 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:48:01 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:48:01 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:48:01 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:48:01 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:48:01 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:48:01 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:48:11 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:48:11 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:48:11 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:48:11 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:48:11 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:48:11 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:48:11 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:48:21 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:48:21 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:48:21 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:48:21 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:48:21 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:48:21 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:48:21 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:48:31 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:48:31 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:48:31 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:48:31 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:48:31 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:48:31 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:48:31 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:48:41 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:48:41 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:48:41 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:48:41 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:48:41 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:48:41 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:48:41 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:48:51 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:48:51 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:48:51 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:48:51 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:48:51 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:48:51 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:48:51 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:49:01 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:49:01 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:49:01 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:49:01 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:49:01 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:49:01 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:49:01 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:49:11 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:49:11 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:49:11 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:49:11 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:49:11 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:49:11 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:49:11 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:49:21 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:49:21 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:49:21 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:49:21 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:49:21 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:49:21 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:49:21 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:49:31 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:49:31 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:49:31 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:49:31 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:49:31 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:49:31 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:49:31 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:49:41 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:49:41 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:49:41 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:49:41 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:49:41 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:49:41 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:49:41 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:49:51 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:49:51 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:49:51 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:49:51 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:49:51 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:49:51 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:49:51 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:50:01 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:50:01 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:50:01 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:50:01 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:50:01 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:50:01 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:50:01 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:50:11 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:50:11 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:50:11 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:50:11 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:50:11 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:50:11 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:50:11 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:50:21 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:50:21 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:50:21 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:50:21 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:50:21 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:50:21 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:50:21 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:50:31 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:50:31 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:50:31 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:50:31 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:50:31 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:50:31 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:50:31 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:50:41 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:50:41 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:50:41 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:50:41 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:50:41 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:50:41 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:50:41 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:50:51 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:50:51 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:50:51 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:50:51 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:50:51 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:50:51 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:50:51 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:51:01 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:51:01 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:51:01 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:51:01 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:51:01 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:51:01 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:51:01 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:51:11 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:51:11 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:51:11 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:51:11 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:51:11 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:51:11 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:51:11 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:51:21 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:51:21 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:51:21 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:51:21 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:51:21 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:51:21 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:51:21 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:51:31 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:51:31 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:51:31 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:51:31 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:51:31 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:51:31 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:51:31 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:51:41 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:51:41 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:51:41 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:51:41 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:51:41 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:51:41 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:51:41 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:51:51 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:51:51 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:51:51 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:51:51 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:51:51 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:51:51 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:51:51 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:52:01 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:52:01 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:52:01 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:52:01 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:52:01 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:52:01 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:52:01 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 19:52:11 INFO Executor: Told to re-register on heartbeat
+19/05/28 19:52:11 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 19:52:11 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:52:11 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 19:52:11 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 19:52:11 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 19:52:11 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 21:52:19 INFO Executor: Told to re-register on heartbeat
+19/05/28 21:52:19 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 21:52:19 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 21:52:19 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 21:52:19 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 21:52:19 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 21:52:19 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 21:52:29 INFO Executor: Told to re-register on heartbeat
+19/05/28 21:52:29 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 21:52:29 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 21:52:29 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 21:52:29 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 21:52:29 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 21:52:29 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 21:52:39 INFO Executor: Told to re-register on heartbeat
+19/05/28 21:52:39 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 21:52:39 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 21:52:39 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 21:52:39 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 21:52:39 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 21:52:39 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:14:35 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:14:35 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:14:35 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:14:35 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:14:35 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:14:35 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:14:35 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:14:36 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:14:36 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:14:36 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:14:37 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:14:37 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:14:37 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:14:37 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:14:47 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:14:47 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:14:47 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:14:47 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:14:47 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:14:47 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:14:47 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:14:56 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:14:56 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:14:56 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:14:56 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:14:56 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:14:57 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:14:57 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:15:06 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:15:06 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:15:06 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:15:06 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:15:06 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:15:07 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:15:07 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:15:16 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:15:16 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:15:16 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:15:16 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:15:16 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:15:16 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:15:16 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:15:27 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:15:27 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:15:27 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:15:27 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:15:27 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:15:27 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:15:27 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:15:37 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:15:37 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:15:37 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:15:37 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:15:37 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:15:37 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:15:37 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:15:46 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:15:46 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:15:46 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:15:46 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:15:46 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:15:46 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:15:47 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:15:56 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:15:56 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:15:56 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:15:56 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:15:56 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:15:57 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:15:57 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:16:06 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:16:06 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:16:06 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:16:06 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:16:06 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:16:06 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:16:06 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:16:17 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:16:17 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:16:17 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:16:17 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:16:17 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:16:17 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:16:17 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:16:27 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:16:27 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:16:27 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:16:27 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:16:27 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:16:27 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:16:27 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:16:37 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:16:37 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:16:37 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:16:37 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:16:37 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:16:37 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:16:37 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:16:47 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:16:47 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:16:47 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:16:47 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:16:47 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:16:47 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:16:47 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:16:57 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:16:57 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:16:57 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:16:57 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:16:57 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:16:57 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:16:57 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:17:07 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:17:07 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:17:07 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:17:07 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:17:07 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:17:07 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:17:07 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:17:17 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:17:17 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:17:17 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:17:17 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:17:17 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:17:17 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:17:17 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:17:27 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:17:27 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:17:27 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:17:27 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:17:27 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:17:27 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:17:27 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:17:37 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:17:37 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:17:37 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:17:37 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:17:37 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:17:37 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:17:37 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:17:47 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:17:47 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:17:47 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:17:47 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:17:47 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:17:47 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:17:47 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:17:57 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:17:57 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:17:57 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:17:57 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:17:57 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:17:57 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:17:57 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:18:07 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:18:07 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:18:07 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:18:07 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:18:07 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:18:07 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:18:07 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:18:17 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:18:17 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:18:17 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:18:17 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:18:17 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:18:17 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:18:17 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:18:27 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:18:27 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:18:27 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:18:27 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:18:27 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:18:27 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:18:27 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:18:37 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:18:37 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:18:37 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:18:37 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:18:37 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:18:37 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:18:37 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:18:47 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:18:47 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:18:47 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:18:47 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:18:47 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:18:47 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:18:47 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:18:57 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:18:57 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:18:57 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:18:57 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:18:57 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:18:57 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:18:57 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:19:07 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:19:07 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:19:07 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:19:07 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:19:07 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:19:07 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:19:07 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:19:17 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:19:17 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:19:17 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:19:17 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:19:17 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:19:17 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:19:17 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:19:27 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:19:27 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:19:27 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:19:27 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:19:27 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:19:27 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:19:27 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:19:37 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:19:37 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:19:37 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:19:37 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:19:37 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:19:37 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:19:37 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:19:47 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:19:47 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:19:47 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:19:47 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:19:47 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:19:47 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:19:47 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:19:57 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:19:57 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:19:57 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:19:57 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:19:57 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:19:57 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:19:57 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:20:07 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:20:07 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:20:07 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:20:07 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:20:07 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:20:07 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:20:07 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:20:17 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:20:17 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:20:17 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:20:17 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:20:17 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:20:17 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:20:17 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:20:27 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:20:27 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:20:27 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:20:27 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:20:27 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:20:27 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:20:27 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:20:37 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:20:37 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:20:37 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:20:37 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:20:37 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:20:37 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:20:37 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:20:47 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:20:47 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:20:47 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:20:47 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:20:47 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:20:47 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:20:47 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:20:57 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:20:57 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:20:57 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:20:57 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:20:57 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:20:57 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:20:57 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)
+19/05/28 23:22:30 INFO Executor: Told to re-register on heartbeat
+19/05/28 23:22:30 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 60316, None) re-registering with master
+19/05/28 23:22:30 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:22:30 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 60316, None)
+19/05/28 23:22:30 INFO BlockManager: Reporting 3 blocks to the master.
+19/05/28 23:22:30 INFO BlockManagerInfo: Updated broadcast_2_piece0 in memory on localhost:60316 (current size: 25.8 KB, original size: 25.8 KB, free: 366.0 MB)
+19/05/28 23:22:30 INFO BlockManagerInfo: Updated rdd_9_0 in memory on localhost:60316 (current size: 291.0 KB, original size: 291.0 KB, free: 366.0 MB)

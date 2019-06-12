@@ -1,0 +1,618 @@
+library(conflicted)
+#library(SparkR)
+library(shiny)
+#conflict_prefer("column","shiny") #already defined in ui.R
+conflict_prefer("group_by","dplyr")
+library(sparklyr)
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(shinythemes)
+library(DT)
+library(lubridate)
+library(shinyTime)
+library(hms)
+library(stringr)
+library(shinycssloaders)
+
+################# SERVER FUNCTION #####################
+server <- function(input, output, session) {
+  
+  #config <- spark_config()
+  #config$spark.sql.hive.convertMetastoreParquet <- 'false'
+  #config$spark.driver.memory <- '20g'
+
+  #takes up to 10 secs
+  sc <- spark_connect(master = "yarn-client", app_name = "custbasedbilling", config = spark_config())
+  
+ 
+  #####################################################################   
+  ### ASSIGNING OBJECTS, FUNCTIONS ETC. ###  
+  
+  #filenames <- system(intern = TRUE, command = "hdfs dfs -ls /dszone/Augustine_Jillian/customerbasedbilling/mpcdata") %>% str_extract("[:alpha:]+1$")
+  
+  #filenames <- shell(intern = TRUE, cmd = "dir") %>% str_extract("[:alpha:]+1.csv$") %>% na.omit() %>% str_sub(end = -5)
+  filenames <- c("gamer1.csv","lowuser1.csv","newsreader1.csv","streamer1.csv", "gamerfull.csv", 'gamer_one', 'gamer_ten', 'lowuser')
+  
+  imsi <- reactive({req(sparkDF())
+    one <- sparkDF()
+    
+    one %>%
+      SparkR::select(one$IMSI) %>% head(1) %>% dplyr::pull()
+  })
+  
+  themeCBB <- theme(text = element_text(face="bold"),
+                    plot.title = element_text(colour = "grey20", hjust = 0.5, size = 16),
+                    axis.title = element_text(size=14, colour = "grey20"),
+                    axis.text = element_text(size=11, colour = "grey30"),
+                    legend.title = element_text(size=14),
+                    legend.text = element_text(size=12)
+  )
+  
+  pc_char2labels <- function(nums) {
+    labs <- vector("character", length(nums))
+    for (i in 1:length(nums)) {
+      labs[i] <- if (nums[i]==1) {"p2p"
+      } else if (nums[i]==2) {"voip"
+      } else if (nums[i]==3) {"im"
+      } else if (nums[i]==4) {"web_browsing"
+      } else if (nums[i]==5) {"file_access"
+      } else if (nums[i]==6) {"streaming"
+      } else if (nums[i]==7) {"stock"
+      } else if (nums[i]==8) {"game"
+      } else if (nums[i]==9) {"email"
+      } else if (nums[i]==10) {"tunneling"
+      } else if (nums[i]==11) {"network_administration"
+      } else if (nums[i]==12) {"remote_connectivity"
+      } else if (nums[i]==13) {"database"
+      } else if (nums[i]==14) {"network_storage"
+      } else if (nums[i]==15) {"mobile"
+      } else if (nums[i]==16) {"others"
+      } else if (nums[i]==17) {"unknown"}
+    }
+    return(labs)
+  }
+  
+  ##################################################################### 
+  ### ERROR MESSAGES ###
+  
+  datanotfound <- eventReactive(input$loaddataset, 
+                                if (input$datasetID != "" & !input$datasetID %in% filenames)
+                                {"Error: Dataset not found, check ID again. \n If the dataset was requested over X weeks ago, it has been deleted and must be requested again."})
+  
+  importdateserror <- eventReactive(input$loaddataset, 
+                              if (input$importdates[2] < input$importdates[1])
+                              {"Error: The end date must be the same as or after the start date"})
+  
+  visdateserror <- eventReactive(input$applyselection, 
+                                 if (input$visdates[2] < input$visdates[1])
+                                 {"Error: The end date must be the same as or after the start date"})
+  
+  exportrangeerror <- eventReactive(input$collectdata,
+                                    {if (
+                                        (!is.na(input$colldates[1]) & !is.na(input$colldates[2]) & !is.na(input$collstarttime) & !is.na(input$collendtime))
+                                        &
+                                        (as_date(input$colldates[2]) %>%
+                                        paste(input$collendtime) %>%
+                                        ymd_hm())
+                                        - (as_date(input$colldates[1]) %>%
+                                           paste(input$collstarttime) %>%
+                                           ymd_hm())
+                                          > dhours(6))
+                                      {"Error: Selected range must be 6 hours or less"}
+                                    })
+  
+  exporttimeerror1 <- eventReactive(input$collectdata,
+                             {if (is.na(
+                               as_date(input$colldates[1]) %>%
+                                       paste(input$collstarttime) %>%
+                                       ymd_hm()
+                                       ))
+                             {"Error: Start time is not valid"}
+})
+
+  # exporttimeerror1 <- eventReactive(input$collectdata,
+  #                                   {
+  #                                     if (!is.POSIXt(strptime(input$collstarttime,"%R")))
+  #                                   {"Error: Start time is not valid"} else {""}
+  #                                   })
+                                      
+  exporttimeerror2 <- eventReactive(input$collectdata,
+                                    {if (is.na(
+                                      as_date(input$colldates[2]) %>%
+                                      paste(input$collendtime) %>%
+                                      ymd_hm()
+                                    ))
+                                    {"Error: End time is not valid"} else {""}
+})
+
+  
+  ### UI for error messages ###
+  output$message1 <- renderUI({
+    fluidRow(
+      fluidRow(column(12,datanotfound())),
+      fluidRow(column(12,importdateserror()))
+    )
+  })
+  
+    output$message2 <- renderUI({
+        fluidRow(
+          fluidRow(column(12,visdateserror())),
+          br()
+        )
+  })
+  
+    output$message3 <- renderUI({
+      fluidRow(
+        fluidRow(column(11,offset = 1, exportrangeerror())),
+        fluidRow(column(11,offset = 1, exporttimeerror1())),
+        #fluidRow(column(12,exporttimeerror2())),
+        br()
+      )
+    })
+  ##################################################################### 
+    
+    
+  ##################################################################### 
+  ### CREATING RAW DATAFRAME ###
+  #######################################
+  ########### REQUEST DATA ##############
+  reqmsg <- eventReactive(eventExpr = input$requestdata,
+                          valueExpr = "Some kind of message")
+
+  output$datarequested <- renderText({
+    reqmsg()
+  })
+      
+  #######################################
+  
+  ########### LOAD DATA ##############  
+  ######## Datalake version ############
+  # sparkDF <- eventReactive(
+  #   eventExpr = input$loaddataset,
+  #   valueExpr = {
+  #     req(input$datasetID,(input$datasetID %in% filenames),(input$importdates[1] <= input$importdates[2]))
+  #     spark_read_parquet(sc, name="df", 
+  #                        #path=paste0("hdfs://bigdata1/dszone/Augustine_Jillian/customerbasedbilling/mpcdata/",input$datasetID)) %>%
+  #                        path=paste0("hdfs://lxspkop205.at.inside:8020/dev/user/u4xk7mg/customerbasedbilling/mpcdata/",input$datasetID)) %>%
+  #       sdf_with_sequential_id() %>% 
+  #       mutate(ym = substr(starttime,1,7),
+  #              ymd = substring(starttime,1,10),
+  #              ymdh = substr(starttime,1,13),
+  #              ymdhm = substr(starttime,1,16),
+  #              traffic = uplink_traffic+downlink_traffic) %>%
+  #       filter(ymd >= as.character(input$importdates[1]), 
+  #              ymd <= as.character(input$importdates[2]))
+  #   })
+  #
+     
+  ########### Local Version #############
+    # loading 1.11.18-21.2.19 took 1 min on local machine using code below
+  sparkDF <- eventReactive(
+    eventExpr = input$loaddataset,
+    valueExpr = {
+      ### start ###
+      req(input$datasetID,
+          (input$datasetID %in% filenames),
+          (input$importdates[1] <= input$importdates[2]))
+
+      df <- read.parquet(input$datasetID)
+      df %>% 
+        SparkR::filter(df$StartTime >= paste(input$importdates[1],'00:00:00')) %>%
+        SparkR::filter(df$StartTime <= paste(input$importdates[2],'23:59:59')) %>%
+        SparkR::mutate(ym = SparkR::substr(df$StartTime, 1,7)) %>%
+        SparkR::mutate(ymd = SparkR::substr(df$StartTime, 1,10)) %>%
+        SparkR::mutate(ymdh = SparkR::substr(df$StartTime, 1,13)) %>%
+        SparkR::mutate(ymdhm = SparkR::substr(df$StartTime, 1,16)) %>%
+        SparkR::mutate(traffic = df$uplink_traffic + df$downlink_traffic)
+
+     ### end ###
+    })
+  
+  ########### Loading Message #############  
+    
+  output$dataloaded <- renderText({
+    req(sparkDF())
+    paste("Data was successfully loaded!")
+  })
+    
+
+  #####################################################################
+  ### CREATING TEMP TRAFFIC DATATABLE
+  
+  trafficdatatemp <- eventReactive(
+    eventExpr = input$applyselection,
+    valueExpr = {
+      req(sparkDF(),(input$visdates[1] <= input$visdates[2]))
+      
+      one <- sparkDF() 
+      two <- one %>%
+        SparkR::filter(one$starttime >= paste(input$visdates[1],'00:00:00')) %>%
+        SparkR::filter(one$starttime <= paste(input$visdates[2],'23:59:59'))
+      
+      if(input$visdates[2] - input$visdates[1] == 0) {
+        ###data per hour###
+          two %>%
+          SparkR::groupBy('ymdh','protocol_category') %>%
+          SparkR::summarize(Traffic = sum(two$traffic)) %>% 
+          SparkR::arrange('Traffic', decreasing = TRUE) %>%
+          SparkR::collect() %>%
+          dplyr::mutate( Uhrzeit = (ymd_h(ymdh) %>% floor_date("1 hour")) ) %>%
+          dplyr::select(Uhrzeit, protocol_category, Traffic)
+        ### end of expression###
+        
+      }else if (input$visdates[2] - input$visdates[1] <= 30) { 
+        ###data per day###
+          two %>%
+          SparkR::groupBy('ymd','protocol_category') %>%
+          SparkR::summarize(Traffic = sum(two$traffic)) %>% 
+          SparkR::arrange('Traffic', decreasing = TRUE) %>%
+          SparkR::collect() %>%
+          dplyr::mutate( Datum = (ymd(ymd) %>% floor_date('1 day')) ) %>%
+          dplyr::select(Datum, protocol_category, Traffic)
+        ### end of expression###
+        
+      } else if (input$visdates[2] - input$visdates[1] > 30) {
+        ###data per month###
+        two %>%
+          SparkR::groupBy('ym','protocol_category') %>%
+          SparkR::summarize(Traffic = sum(two$traffic)) %>% 
+          SparkR::arrange('Traffic', decreasing = TRUE) %>%
+          SparkR::collect() %>%
+          dplyr::mutate( Monat = ymd(paste0(ym,'-01')))  %>%
+          dplyr::select(Monat, protocol_category, Traffic)
+        ### end of expression###
+      }
+    })
+  
+  ### CREATING NON-TEMP TRAFFIC DATA TABLE
+  trafficdata <- reactive({
+    req(trafficdatatemp())
+    pc_levels <- trafficdatatemp() %>% pull(protocol_category) %>% as.numeric()  %>% unique()
+    pc_labels <- pc_levels %>% pc_char2labels()
+    
+    trafficdatatemp()  %>%
+      dplyr::mutate(protocol_category = factor(protocol_category, 
+                                        levels = pc_levels))
+  })
+  
+  #################################################################
+  ### UPDATING VISUALISATION DATES SELECTION RANGE TO MATCH IMPORT DATES SELECTION RANGE  
+  observeEvent(input$importdates,{
+    req(input$importdates)
+    updateDateRangeInput(session, inputId = "visdates", 
+                         start = input$importdates[1],
+                         end = input$importdates[2],
+                         min = input$importdates[1],
+                         max = input$importdates[2])  
+  })
+  
+  #################################################################
+  ### VISUALISATION ONE
+  
+  ## Creating Plot Over Time   
+  PlotOverTime <- eventReactive(
+    eventExpr = input$applyselection,
+    valueExpr = {
+      req(trafficdata())
+      
+      pc_levels <- trafficdatatemp() %>% pull(protocol_category) %>% as.numeric()  %>% unique()
+      pc_labels <- pc_levels %>% pc_char2labels()
+      
+      if(input$visdates[2] - input$visdates[1] == 0) {
+        ###graph per hour###
+        hourbreaks <- as.hms(seq(0,84600,3600))
+        hourbreaklabs <- substring(hourbreaks,1,5)
+        
+        trafficdata() %>% 
+          dplyr::mutate(Uhrzeit = as.hms(substring(Uhrzeit,12,19))) %>%
+          ggplot(aes(x=Uhrzeit, y=Traffic/1e6, fill=protocol_category)) +
+          geom_col() +
+          labs(title = paste("Traffic per Hour for IMSI:", imsi()), y = "Traffic (MB)")  +
+          scale_x_time(name = "Time", 
+                       breaks = hourbreaks[seq(1,length(hourbreaks),2)], 
+                       labels = hourbreaklabs[seq(1,length(hourbreaklabs),2)]) + 
+          scale_fill_discrete(labels = pc_labels) +
+          themeCBB +
+          theme(axis.text.x = element_text(angle = 45, hjust = 1),
+                panel.grid.major.x = element_blank(),
+                panel.grid.minor.x = element_blank(),
+                legend.position = "left") 
+        ### end of expression###
+        
+      }else if (input$visdates[2] - input$visdates[1] <= 30) { #time difference of 30days includes 31days total
+        ### graph per day###
+        daybreaks <- trafficdata() %>% pull(Datum)
+        daybreaklabs <- paste(substr(daybreaks,9,10), lubridate::month(daybreaks, label=TRUE))
+        
+        trafficdata() %>%
+          ggplot(aes(x=Datum, y=Traffic/1e6, fill = protocol_category)) +
+          geom_col() +
+          labs(title = paste("Traffic per Day for IMSI:", imsi()), y = "Traffic (MB)")  +
+          scale_x_time(name = "Datum", breaks = daybreaks[seq(1,length(daybreaks),2)], 
+                       labels = daybreaklabs[seq(1,length(daybreaklabs),2)]) + 
+          scale_fill_discrete(labels = pc_labels) +
+          themeCBB +
+          theme(axis.text.x = element_text(angle = 45, hjust = 1),
+                panel.grid.major.x = element_blank(),
+                panel.grid.minor.x = element_blank(),
+                legend.position = "left")
+        ### end of expression###
+        
+      } else if (input$visdates[2] - input$visdates[1] > 30) {
+        ### graph per month###
+        monthbreaks <- trafficdata() %>% pull(Monat)
+        monthbreaklabs <- lubridate::month(monthbreaks, label=TRUE)
+        
+        trafficdata() %>%
+          ggplot(aes(x=Monat, y=Traffic/1e6, fill = protocol_category)) +
+          geom_col() +
+          labs(title = paste("Traffic per Month for IMSI:", imsi()), y = "Traffic (MB)")  +
+          scale_x_time(name = "Monat", breaks = monthbreaks, 
+                       labels = monthbreaklabs) + 
+          scale_fill_discrete(labels = pc_labels) +
+          themeCBB +
+          theme(axis.text.x = element_text(angle = 45, hjust = 1),
+                panel.grid.major.x = element_blank(),
+                panel.grid.minor.x = element_blank(),
+                legend.position = "left")
+        ### end of expression###
+      }
+    })
+  
+  ### renderPlot for plotOutput
+  output$plotovertime <- renderPlot({
+    PlotOverTime()
+  })
+  
+  ### downloadHandler to download PlotOverTime
+  output$gen_img1 <- downloadHandler(
+    filename = function() {paste("vis-", Sys.Date(), ".png", sep="")},
+    content = function(con) {
+      ggplot2::ggsave(filename = con, plot = PlotOverTime(), device = "png", width = 12, height = 6)
+    }
+  )
+  ### Download button to appear after plot has been created
+  output$downloadvis1 <- renderUI({
+    req(PlotOverTime())
+    fluidRow(column(12,downloadButton(outputId = "gen_img1",
+                                      label = "Download Graph",
+                                      class = "btn-primary")))
+  })
+  
+  #################################################################
+  ### DATATABLE ONE
+  
+  datatable1 <- eventReactive(input$applyselection,
+                              {if(input$visdates[2] - input$visdates[1] == 0) {
+                                  trafficdata() %>%
+                                  dplyr::mutate(Uhrzeit = paste(lubridate::hour(Uhrzeit), '00', sep = ":"))  
+                                } else if (input$visdates[2] - input$visdates[1] <= 30) {
+                                  trafficdata() %>%
+                                    dplyr::mutate(Datum = paste(lubridate::day(Datum), lubridate::month(Datum), lubridate::year(Datum), sep = "/"))  
+                                } else if (input$visdates[2] - input$visdates[1] > 30) {
+                                  trafficdata() %>%
+                                    dplyr::mutate(Monat = paste(lubridate::month(Monat), lubridate::year(Monat), sep = "/")) 
+                                }  
+                              })
+  
+  ### renderDataTable for dataTableOutput
+  output$trafficdatatable <- DT::renderDataTable({ 
+    req(datatable1(),(nrow(datatable1()) >0 )) # there should be at least one row of data to show
+    
+        DT::datatable(
+      data = datatable1(),
+      options = list(pageLength = 10),
+      rownames = FALSE)
+  })
+  
+  ### downloadHandler to download gen_agg1
+  output$gen_agg1 <- downloadHandler(
+    filename = function() {paste("data-", Sys.Date(), ".csv", sep="")},
+    content = function(con) {
+      readr::write_delim(trafficdata(), con, delim=";")
+    }
+  )
+  
+  ### Download button to appear after data has been created
+  output$downloadagg1 <- renderUI({
+    req(trafficdata(),(nrow(trafficdata()) >0 )) # there should be at least one row of data to show
+    fluidRow(column(12,downloadButton(outputId = "gen_agg1",
+                                      label = "Download Data",
+                                      class = "btn-primary")))
+  })
+  
+  #################################################################
+  ### VISUALISATION 2
+  
+  ### rearranging data per PC
+  pref_pcdatatemp <- reactive({
+    trafficdata() %>% 
+      group_by(protocol_category) %>% 
+      summarise(Traffic = sum(Traffic, na.rm = TRUE)) %>%
+      dplyr::arrange(Traffic)
+  })
+  
+  pref_pcdata <- reactive({
+    req(pref_pcdatatemp())
+    pc_levels <- pref_pcdatatemp() %>% pull(protocol_category) %>% unique()
+    pc_labels <- pc_levels %>% pc_char2labels()
+    pref_pcdatatemp() %>%
+      dplyr::mutate(protocol_category = factor(protocol_category,
+                                        levels = pc_levels,
+                                        labels = pc_labels))
+  })
+  
+  ### plot per protocol category  
+  PlotPerPC <- eventReactive(
+    eventExpr = input$applyselection,
+    valueExpr = {
+      req(pref_pcdata())
+      
+      pref_pcdata() %>%
+        ggplot(aes(x = protocol_category, y=Traffic/1e6, fill = protocol_category)) + 
+        geom_col() +
+        labs(title = paste("Traffic per Protocol Category for IMSI:", imsi()),
+             y = "Traffic (MB)")  +
+        scale_fill_discrete(direction = -1) + #changing direction so colours correspond to first graph       
+        themeCBB +
+        coord_flip() +
+        theme(axis.text = element_text(size=12),
+              axis.title.y = element_blank(), 
+              legend.position = "none",
+              panel.grid.major.y = element_blank(),
+              panel.grid.minor.y = element_blank())
+    })
+  
+  ### renderPlot for plotOutput
+  output$plotperpc <- renderPlot({
+    PlotPerPC()
+  })
+  
+  ### downloadHandler to download PlotPerPC
+  output$gen_img2 <- downloadHandler(
+    filename = function() {
+      paste("vis-", Sys.Date(), ".png", sep="")
+    },
+    content = function(con) {
+      ggplot2::ggsave(filename = con, plot = PlotPerPC(), device = "png", width = 12, height = 6)
+    }
+  )
+  
+  ### Download button to appear after plot has been created
+  output$downloadvis2 <- renderUI({
+    req(PlotPerPC())    
+    fluidRow(column(12, downloadButton(outputId = "gen_img2",
+                                       label = "Download Graph",
+                                       class = "btn-primary")))
+  })
+  
+  #################################################################
+  ### DATATABLE TWO
+  
+  ### renderDataTable for dataTableOutput
+  output$perPCdatatable <- DT::renderDataTable({ 
+    req(pref_pcdata(),(nrow(pref_pcdata()) >0 )) # there should be at least one row of data to show
+    
+    DT::datatable(
+      data = pref_pcdata(),
+      options = list(pageLength = 10),
+      rownames = FALSE)
+  })
+  
+  ### Download button to appear after data has been created
+  output$genagg2 <- downloadHandler(
+    filename = function() {paste("data-", Sys.Date(), ".csv", sep="")},
+    content = function(con) {
+      readr::write_delim(pref_pcdata(), con, delim=";")
+    })
+  
+  ### downloadHandler to download gen_agg2
+  output$genagg2 <- downloadHandler(
+    filename = function() {paste("data-", Sys.Date(), ".csv", sep="")},
+    content = function(con) {
+      readr::write_delim(pref_pcdata(), con, delim=";")
+    })
+  
+  ### Download button to appear after data has been created
+  output$downloadagg2 <- renderUI({
+    req(pref_pcdata(),(nrow(pref_pcdata()) >0 )) # there should be at least one row of data to show
+    fluidRow(column(12,downloadButton(outputId = "gen_agg2",
+                                      label = "Download Data",
+                                      class = "btn-primary")))
+  })
+  
+  #################################################################
+  ### UPDATING COLLECT DATES SELECTION RANGE TO MATCH IMPORT DATES SELECTION RANGE  
+  observeEvent(input$importdates,{
+    req(input$importdates)
+    updateDateRangeInput(session, inputId = "colldates", 
+                         start = input$importdates[1],
+                         end = input$importdates[2],
+                         min = input$importdates[1],
+                         max = input$importdates[2])  
+  })
+  
+  #######################################################
+  ### DATATABLE RAW 
+  
+  #raw data for a time period of 6 hrs or less
+  
+  RawData <- eventReactive(input$collectdata,{
+    req(sparkDF(), input$colldates, 
+        (is.POSIXt(strptime(input$collstarttime,"%R"))),
+        (is.POSIXt(strptime(input$collendtime,"%R"))),
+        
+        ( # this checks that the selected time is 6 hours or less
+          (!is.na(input$colldates[1]) & !is.na(input$colldates[2]) & !is.na(input$collstarttime) & !is.na(input$collendtime))
+          &
+            (as_date(input$colldates[2]) %>%
+               paste(input$collendtime) %>%
+               ymd_hm())
+          - (as_date(input$colldates[1]) %>%
+               paste(input$collstarttime) %>%
+               ymd_hm())
+          <= dhours(6))
+        
+        )
+        
+    from <- input$colldates[1] %>%
+              paste(input$collstarttime, sep = ' ') 
+
+    to <- input$colldates[2] %>%
+               paste(input$collendtime, sep = ' ')
+
+    #if (ymd_hms(to) - ymd_hms(from) <= dhours(6)) {
+      one <- sparkDF() 
+      one %>% 
+        # gets over this timezone problem, this extracts the time in the local timezone 
+        SparkR::mutate(start_time = SparkR::substr(one$StartTime, 1,19)) %>%
+        SparkR::mutate(end_time = SparkR::substr(one$EndTime, 1,19)) %>%
+        SparkR::filter(one$ymdhm >= from) %>%
+        SparkR::filter(one$ymdhm <= to) %>%
+        SparkR::select(input$selectedvars) %>%
+        SparkR::collect()
+
+  })
+  
+  ### renderDataTable for dataTableOutput
+  output$rawdata <- DT::renderDataTable({ # there should be at least one row of data to show, the data should not be from more than 1 day
+    req(RawData())
+    
+    DT::datatable(
+      data = RawData(),
+      #data = trafficdatatemp(),
+      options = list(pageLength = 10),
+      rownames = FALSE)
+  })
+  
+  ### Download button to appear after data has been created
+  output$downloadData <- downloadHandler(
+    filename = function() {paste("data-", Sys.Date(), ".csv", sep="")},
+    content = function(con) {
+      readr::write_delim(RawData(), con, delim=";")
+    }
+  )
+  
+  ### download button and data to appear after data has been created
+  output$dataAndButton <- renderUI({
+    req(RawData())
+    if (nrow(RawData()) == 0) {
+      fluidRow(h5("No data found for this time period."))
+    } else {
+    fluidRow(fluidRow(column(12, h4(strong("Data Preview")))),
+             ### rawdata
+             fluidRow(column(12, DT::dataTableOutput(outputId = "rawdata"))),
+             ## download button
+             fluidRow(column(12,  
+                    downloadButton(outputId = "downloadData",
+                                   label = "Download Raw Data",
+                                   class = "btn-primary"))))
+    }
+  })
+  #######################################################
+}
+
+#######################################################
+# Run the application 
+#shinyApp(ui = ui, server = server)

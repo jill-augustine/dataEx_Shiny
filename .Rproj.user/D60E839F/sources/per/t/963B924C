@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1560273174131.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1828113746",
+    "id" : "963B924C",
+    "lastKnownWriteTime" : 1560277717,
+    "last_content_update" : 1560277717490,
+    "path" : "~/Documents/GitHub/dataEx_Shiny/playground.R",
+    "project_path" : "playground.R",
+    "properties" : {
+        "cursorPosition" : "6,83",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

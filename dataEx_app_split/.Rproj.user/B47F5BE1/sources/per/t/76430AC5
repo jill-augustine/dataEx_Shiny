@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556278884541.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "76430AC5",
+    "lastKnownWriteTime" : 1869181810,
+    "last_content_update" : -2147483648,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "DDED3684",
+        "caption" : "gamerfull",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=gamerfull&cache_key=DDED3684",
+        "displayedObservations" : 382993,
+        "environment" : "",
+        "object" : "gamerfull",
+        "preview" : 0,
+        "totalObservations" : 382993,
+        "variables" : 48
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

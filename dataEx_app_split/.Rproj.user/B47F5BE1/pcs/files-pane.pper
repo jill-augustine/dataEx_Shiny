@@ -1,0 +1,9 @@
+{
+    "path" : "~/cbb_app_split",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

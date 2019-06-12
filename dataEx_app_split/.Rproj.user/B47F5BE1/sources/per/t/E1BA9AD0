@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556200115085.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4283083899",
+    "id" : "E1BA9AD0",
+    "lastKnownWriteTime" : 1556200589,
+    "last_content_update" : -2147483648,
+    "path" : "~/cbb_app_split/server_sparklyR.R",
+    "project_path" : "server_sparklyR.R",
+    "properties" : {
+        "cursorPosition" : "171,47",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

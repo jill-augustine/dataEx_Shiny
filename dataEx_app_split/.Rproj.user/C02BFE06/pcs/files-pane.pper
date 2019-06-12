@@ -1,0 +1,9 @@
+{
+    "path" : "/data/dev/user/u4xk7mg/networkanalytics/customerbasedbilling/cbb_app_split",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
