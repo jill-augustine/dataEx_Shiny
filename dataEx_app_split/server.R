@@ -139,7 +139,20 @@ server <- function(input, output, session) {
     
     
   ########### REQUEST DATA ##############
-  reqmsg <- eventReactive(eventExpr = input$requestdata,
+    logs_req <- observeEvent(eventExpr = input$requestdata,
+                             handlerExpr = {
+                               user <- system2("whoami", stdout = TRUE) 
+                               email <- input$email # input$email
+                               customerID <- input$customerID # input$customerID
+                               from <- as.character(input$requestdates[1]) # as.character(input$requestdates[1])
+                               to <- as.character(input$requestdates[2])
+                               
+                               log <- paste(as.character(Sys.time()), user, email, customerID, from, to, sep = ";")
+                               
+                               write_lines(log, "../logs_req.txt", append = TRUE)
+                             })
+    
+    reqmsg <- eventReactive(eventExpr = input$requestdata,
                           valueExpr = {paste("The data request was successfully submitted. You will get an email as soon as the data are available. You can now close this window.")
                           })
 
@@ -179,7 +192,23 @@ server <- function(input, output, session) {
    })    
   
   ########### LOAD DATA ##############  
-  ######## Datalake version ############
+  ## logging the load request
+  logs_read <- observeEvent(eventExpr = input$loaddataset,
+                            handlerExpr = {
+                              req(input$datasetID,
+                                  (input$datasetID %in% filenames),
+                                  (input$importdates[1] <= input$importdates[2]))
+                              datasetID <- input$datasetID
+                              user <- system2("whoami", stdout = TRUE) 
+                              in_ID <- input$datasetID
+                              from <- as.character(input$importdates[1])
+                              to <- as.character(input$importdates[2])
+                              
+                              log <- paste(as.character(Sys.time()), user, datasetID, from, to, sep = ";")
+                              write_lines(log, "../logs_read.txt", append = TRUE)
+                            })
+  
+  ########  ############
 
   sparkDF <- eventReactive(
     eventExpr = input$loaddataset,
@@ -576,7 +605,7 @@ server <- function(input, output, session) {
     # this is the raw data which will be available for download
     collected <- sparkDF() %>% 
       # filtering the timeframe 
-        filter(ymdhm <= from,
+        filter(ymdhm >= from,
                ymdhm <= to) %>%
       # selecting input variables
         select(input$selectedvars) %>%
